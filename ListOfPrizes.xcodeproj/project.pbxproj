@@ -19,6 +19,8 @@
 		5E2CF8B6267B2A95007BB2EB /* PrizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */; };
 		5E2CF8B8267B2AF4007BB2EB /* PrizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */; };
 		5E2CF8BA267B7236007BB2EB /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B9267B7236007BB2EB /* Prize.swift */; };
+		5E2CF8BE267B95A2007BB2EB /* screen_002.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8BC267B95A2007BB2EB /* screen_002.png */; };
+		5E2CF8BF267B95A2007BB2EB /* screen_001.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8BD267B95A2007BB2EB /* screen_001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeCell.swift; sourceTree = "<group>"; };
 		5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeTableView.swift; sourceTree = "<group>"; };
 		5E2CF8B9267B7236007BB2EB /* Prize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
+		5E2CF8BC267B95A2007BB2EB /* screen_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_002.png; sourceTree = "<group>"; };
+		5E2CF8BD267B95A2007BB2EB /* screen_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen_001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				5E2CF8B3267AAFC5007BB2EB /* .gitignore */,
 				5E2CF8B1267AAF63007BB2EB /* README.md */,
 				5E2CF899267AAF32007BB2EB /* ListOfPrizes */,
+				5E2CF8BB267B957F007BB2EB /* Screenshot */,
 				5E2CF898267AAF32007BB2EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +88,15 @@
 				5E2CF8A3267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld */,
 			);
 			path = ListOfPrizes;
+			sourceTree = "<group>";
+		};
+		5E2CF8BB267B957F007BB2EB /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				5E2CF8BD267B95A2007BB2EB /* screen_001.png */,
+				5E2CF8BC267B95A2007BB2EB /* screen_002.png */,
+			);
+			path = Screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +159,9 @@
 				5E2CF8B4267AAFC5007BB2EB /* .gitignore in Resources */,
 				5E2CF8AA267AAF35007BB2EB /* LaunchScreen.storyboard in Resources */,
 				5E2CF8A7267AAF35007BB2EB /* Assets.xcassets in Resources */,
+				5E2CF8BF267B95A2007BB2EB /* screen_001.png in Resources */,
 				5E2CF8B2267AAF63007BB2EB /* README.md in Resources */,
+				5E2CF8BE267B95A2007BB2EB /* screen_002.png in Resources */,
 				5E2CF8A2267AAF32007BB2EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

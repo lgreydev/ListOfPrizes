@@ -38,7 +38,7 @@ class PrizeDetailVC: UIViewController {
             prizesList.append(newPrize)
             navigationController?.popViewController(animated: true)
         } catch {
-            fatalError("")
+            fatalError("Not Save")
         }
     }
 }

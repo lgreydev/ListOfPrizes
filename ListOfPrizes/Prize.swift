@@ -14,5 +14,7 @@ class Prize: NSManagedObject {
     @NSManaged var id: NSNumber!
     @NSManaged var title: NSString!
     @NSManaged var price: NSString!
+    @NSManaged var totalSum: NSString!
     @NSManaged var deletedDate: Date?
+    
 }
