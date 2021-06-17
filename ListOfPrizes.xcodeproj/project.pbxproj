@@ -9,20 +9,22 @@
 /* Begin PBXBuildFile section */
 		5E2CF89B267AAF32007BB2EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF89A267AAF32007BB2EB /* AppDelegate.swift */; };
 		5E2CF89D267AAF32007BB2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF89C267AAF32007BB2EB /* SceneDelegate.swift */; };
-		5E2CF89F267AAF32007BB2EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF89E267AAF32007BB2EB /* ViewController.swift */; };
+		5E2CF89F267AAF32007BB2EB /* PrizeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF89E267AAF32007BB2EB /* PrizeDetailVC.swift */; };
 		5E2CF8A2267AAF32007BB2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8A0267AAF32007BB2EB /* Main.storyboard */; };
 		5E2CF8A5267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8A3267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld */; };
 		5E2CF8A7267AAF35007BB2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8A6267AAF35007BB2EB /* Assets.xcassets */; };
 		5E2CF8AA267AAF35007BB2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8A8267AAF35007BB2EB /* LaunchScreen.storyboard */; };
 		5E2CF8B2267AAF63007BB2EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B1267AAF63007BB2EB /* README.md */; };
 		5E2CF8B4267AAFC5007BB2EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B3267AAFC5007BB2EB /* .gitignore */; };
+		5E2CF8B6267B2A95007BB2EB /* PrizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */; };
+		5E2CF8B8267B2AF4007BB2EB /* PrizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E2CF897267AAF32007BB2EB /* ListOfPrizes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfPrizes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E2CF89A267AAF32007BB2EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E2CF89C267AAF32007BB2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E2CF89E267AAF32007BB2EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E2CF89E267AAF32007BB2EB /* PrizeDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeDetailVC.swift; sourceTree = "<group>"; };
 		5E2CF8A1267AAF32007BB2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E2CF8A4267AAF32007BB2EB /* ListOfPrizes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListOfPrizes.xcdatamodel; sourceTree = "<group>"; };
 		5E2CF8A6267AAF35007BB2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		5E2CF8AB267AAF35007BB2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E2CF8B1267AAF63007BB2EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E2CF8B3267AAFC5007BB2EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeCell.swift; sourceTree = "<group>"; };
+		5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +70,14 @@
 			children = (
 				5E2CF89A267AAF32007BB2EB /* AppDelegate.swift */,
 				5E2CF89C267AAF32007BB2EB /* SceneDelegate.swift */,
-				5E2CF89E267AAF32007BB2EB /* ViewController.swift */,
 				5E2CF8A0267AAF32007BB2EB /* Main.storyboard */,
 				5E2CF8A6267AAF35007BB2EB /* Assets.xcassets */,
 				5E2CF8A8267AAF35007BB2EB /* LaunchScreen.storyboard */,
 				5E2CF8AB267AAF35007BB2EB /* Info.plist */,
 				5E2CF8A3267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld */,
+				5E2CF89E267AAF32007BB2EB /* PrizeDetailVC.swift */,
+				5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */,
+				5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */,
 			);
 			path = ListOfPrizes;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2CF89F267AAF32007BB2EB /* ViewController.swift in Sources */,
+				5E2CF8B6267B2A95007BB2EB /* PrizeCell.swift in Sources */,
+				5E2CF89F267AAF32007BB2EB /* PrizeDetailVC.swift in Sources */,
+				5E2CF8B8267B2AF4007BB2EB /* PrizeTableView.swift in Sources */,
 				5E2CF89B267AAF32007BB2EB /* AppDelegate.swift in Sources */,
 				5E2CF89D267AAF32007BB2EB /* SceneDelegate.swift in Sources */,
 				5E2CF8A5267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld in Sources */,
