@@ -18,6 +18,7 @@
 		5E2CF8B4267AAFC5007BB2EB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B3267AAFC5007BB2EB /* .gitignore */; };
 		5E2CF8B6267B2A95007BB2EB /* PrizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */; };
 		5E2CF8B8267B2AF4007BB2EB /* PrizeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */; };
+		5E2CF8BA267B7236007BB2EB /* Prize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2CF8B9267B7236007BB2EB /* Prize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5E2CF8B3267AAFC5007BB2EB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeCell.swift; sourceTree = "<group>"; };
 		5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeTableView.swift; sourceTree = "<group>"; };
+		5E2CF8B9267B7236007BB2EB /* Prize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +76,11 @@
 				5E2CF8A6267AAF35007BB2EB /* Assets.xcassets */,
 				5E2CF8A8267AAF35007BB2EB /* LaunchScreen.storyboard */,
 				5E2CF8AB267AAF35007BB2EB /* Info.plist */,
-				5E2CF8A3267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld */,
 				5E2CF89E267AAF32007BB2EB /* PrizeDetailVC.swift */,
 				5E2CF8B5267B2A95007BB2EB /* PrizeCell.swift */,
 				5E2CF8B7267B2AF4007BB2EB /* PrizeTableView.swift */,
+				5E2CF8B9267B7236007BB2EB /* Prize.swift */,
+				5E2CF8A3267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld */,
 			);
 			path = ListOfPrizes;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5E2CF8B6267B2A95007BB2EB /* PrizeCell.swift in Sources */,
 				5E2CF89F267AAF32007BB2EB /* PrizeDetailVC.swift in Sources */,
 				5E2CF8B8267B2AF4007BB2EB /* PrizeTableView.swift in Sources */,
+				5E2CF8BA267B7236007BB2EB /* Prize.swift in Sources */,
 				5E2CF89B267AAF32007BB2EB /* AppDelegate.swift in Sources */,
 				5E2CF89D267AAF32007BB2EB /* SceneDelegate.swift in Sources */,
 				5E2CF8A5267AAF32007BB2EB /* ListOfPrizes.xcdatamodeld in Sources */,

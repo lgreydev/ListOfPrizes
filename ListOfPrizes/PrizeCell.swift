@@ -9,5 +9,9 @@ import UIKit
 
 
 class PrizeCell: UITableViewCell {
-    //
+   
+    // MARK: - IBOutlet
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    
 }

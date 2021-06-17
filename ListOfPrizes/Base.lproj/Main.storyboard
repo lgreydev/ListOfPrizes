@@ -47,7 +47,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please, quote the price." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lT0-CC-Hqw">
                                                 <rect key="frame" x="0.0" y="34" width="374" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -131,6 +131,10 @@
                                         <constraint firstItem="g0Y-IA-GiJ" firstAttribute="centerY" secondItem="iQK-Cb-RBv" secondAttribute="centerY" id="vcs-Wy-PQX"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="priceLabel" destination="w44-B0-auC" id="pBi-Lw-Tlg"/>
+                                    <outlet property="titleLabel" destination="V6K-mC-pg1" id="LFp-t4-NsD"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
