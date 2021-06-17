@@ -40,17 +40,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="g0Y-IA-GiJ">
-                                            <rect key="frame" x="40" y="35" width="334" height="20.5"/>
+                                            <rect key="frame" x="20" y="27" width="374" height="36"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6K-mC-pg1">
-                                                    <rect key="frame" x="0.0" y="0.0" width="167" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6K-mC-pg1">
+                                                    <rect key="frame" x="0.0" y="0.0" width="217" height="36"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w44-B0-auC">
-                                                    <rect key="frame" x="167" y="0.0" width="167" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w44-B0-auC">
+                                                    <rect key="frame" x="217" y="0.0" width="157" height="36"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -58,9 +58,9 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="g0Y-IA-GiJ" firstAttribute="leading" secondItem="iQK-Cb-RBv" secondAttribute="leadingMargin" constant="20" id="0g8-7v-7dr"/>
+                                        <constraint firstItem="g0Y-IA-GiJ" firstAttribute="leading" secondItem="iQK-Cb-RBv" secondAttribute="leadingMargin" id="0g8-7v-7dr"/>
                                         <constraint firstItem="g0Y-IA-GiJ" firstAttribute="centerX" secondItem="iQK-Cb-RBv" secondAttribute="centerX" id="8Hn-Ay-ed7"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="g0Y-IA-GiJ" secondAttribute="trailing" constant="20" id="TdA-fP-s2F"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="g0Y-IA-GiJ" secondAttribute="trailing" id="TdA-fP-s2F"/>
                                         <constraint firstItem="g0Y-IA-GiJ" firstAttribute="centerY" secondItem="iQK-Cb-RBv" secondAttribute="centerY" id="vcs-Wy-PQX"/>
                                     </constraints>
                                 </tableViewCellContentView>
