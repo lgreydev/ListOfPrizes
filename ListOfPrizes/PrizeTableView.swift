@@ -5,4 +5,9 @@
 //  Created by Sergey Lukaschuk on 17.06.2021.
 //
 
-import Foundation
+import UIKit
+
+
+class PrizeTableView: UITableViewController {
+    
+}
