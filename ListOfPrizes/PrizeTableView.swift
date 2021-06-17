@@ -7,11 +7,11 @@
 
 import UIKit
 
+/// public
+var prizesList = [Prize]()
 
 class PrizeTableView: UITableViewController {
-    
-    var prizesList = [Prize]()
-    
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let prizeCell = tableView.dequeueReusableCell(withIdentifier: "prizeCellID", for: indexPath) as! PrizeCell
         let thisCell: Prize!
