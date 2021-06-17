@@ -69,6 +69,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="priceTF" destination="lT0-CC-Hqw" id="Fyo-60-iFp"/>
+                        <outlet property="titleTF" destination="T2D-jc-oXL" id="0wy-x9-Ia9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
