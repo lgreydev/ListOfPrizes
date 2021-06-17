@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="PrizeDetailVC" customModule="ListOfPrizes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="504-OY-9xd">
-                                <rect key="frame" x="20" y="50" width="374" height="166"/>
+                                <rect key="frame" x="20" y="138" width="374" height="166"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0eR-Lo-tnv">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="68"/>
@@ -62,6 +62,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="504-OY-9xd" secondAttribute="trailing" constant="20" id="uBr-4o-LKi"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="23O-cQ-bLB">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="aFD-XI-qQt">
+                            <connections>
+                                <action selector="saveAction:" destination="BYZ-38-t0r" id="cMR-L7-65e"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,13 +77,13 @@
         <!--List of Prizes-->
         <scene sceneID="uPy-ez-xQr">
             <objects>
-                <tableViewController id="fWY-l8-Lyb" sceneMemberID="viewController">
+                <tableViewController id="fWY-l8-Lyb" customClass="PrizeTableView" customModule="ListOfPrizes" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lIo-gs-GvG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nt1-gJ-cQW">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nt1-gJ-cQW" customClass="PrizeCell" customModule="ListOfPrizes" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nt1-gJ-cQW" id="iQK-Cb-RBv">
@@ -119,7 +126,7 @@
                     <navigationItem key="navigationItem" title="List of Prizes" id="FMW-t6-Zrq">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="cf2-2s-4Bz">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="presentation" id="zih-8D-nho"/>
+                                <segue destination="BYZ-38-t0r" kind="show" id="zih-8D-nho"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
